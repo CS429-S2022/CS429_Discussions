@@ -12,7 +12,7 @@
  Once you've done this, write down the command you used in demo.txt.
 
  Finally, let's make a new subdirectory and move our hello.txt file into it.
- Name the new directory "" and move the file inside it.
+ Name the new directory "test" and move the file inside it.
  Write these two commands in demo.txt, and we're almost done.
 
  Now that we've made some changes to this demo, we can also make a commit to our git repository.

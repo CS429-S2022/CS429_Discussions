@@ -1,0 +1,4 @@
+touch demo.txt
+./hello > hello.txt
+mkdir test
+mv hello.txt test
