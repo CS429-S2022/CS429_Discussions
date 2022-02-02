@@ -8,7 +8,7 @@ Each week will have a class review or demo set up for you to work on in groups, 
 Solutions will be posted on the solutions branch.
 To pull them, create a new branch on your own repository with
 `git checkout -b solutions`
-`git pull`
+`git pull origin solutions`
 Then, you will be able to view the solutions while on the
 solutions branch, and you can switch back to your own work with
 `git checkout main`
