@@ -77,9 +77,9 @@ void pointers_example_1(int a, int b) {
  * the value that way.
  ****************************************/
 void pointers_task_1(int *a, int* b) {
-    // int temp = ?;
-    // *a = ?;
-    // *b = ?; 
+    int temp = *a;
+    *a = *b;
+    *b = temp; 
 }
 
 /****************************************
@@ -115,7 +115,7 @@ void pointers_task_1(int *a, int* b) {
  ****************************************/
 
 int *pointers_task_2() {
-    int array[3]; // Replace this line.
+    int *array = malloc(sizeof(int)*3);
     array[0] = 4;
     array[1] = 2;
     array[2] = 9;
